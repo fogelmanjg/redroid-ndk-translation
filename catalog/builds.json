@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "note": "Builds of the ndk_translation (ARM -> x86_64 native bridge) that Google ships in the Android SDK system images. Hashes are of libndk_translation.so; sourceFingerprint comes from tools/fingerprint.js. No binaries are stored here.",
+  "builds": [
+    {
+      "id": "ndk-api34-ff473474",
+      "libndk_translation": {
+        "md5": "ff4734748d41d76faabea27744bf167e",
+        "sha256": "a2086fbc807f697f9b91222065c9d9000ca9727748699c0d9b751319258cbb3e",
+        "size": 2400920
+      },
+      "api": 34,
+      "sourceFingerprint": "2ac6cee555537d3d",
+      "nativeBridgeCheckLines": [],
+      "checks": 19,
+      "images": [
+        {
+          "zip": "x86_64-34_r14.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-34_r14.zip",
+          "zipSha1": "01d32617fd1937e540faf8731d70cf50e35af854",
+          "label": "Android 14 (API 34) r14"
+        }
+      ],
+      "games": {}
+    },
+    {
+      "id": "ndk-api35-f7ceaac2",
+      "libndk_translation": {
+        "md5": "f7ceaac2e717bf5c6fcc395cff611acc",
+        "sha256": "e8c571d36d854e3604eafdac9e0ee405baca549a59ce84470763c8681954c810",
+        "size": 3426424
+      },
+      "api": 35,
+      "sourceFingerprint": "9676d50270c488a8",
+      "nativeBridgeCheckLines": [
+        220,
+        285,
+        347,
+        349,
+        616,
+        629
+      ],
+      "checks": 206,
+      "images": [
+        {
+          "zip": "x86_64-35_r06.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35_r06.zip",
+          "zipSha1": "05450b8a015208b1c99bb1c87c80ffd173ebd9d3",
+          "label": "Android 15 (API 35) r06"
+        }
+      ],
+      "games": {}
+    },
+    {
+      "id": "ndk-api35-65148744",
+      "libndk_translation": {
+        "md5": "6514874403c31122978079f0552cdb05",
+        "sha256": "f28c1225942e1dc7c0b4570d6ba1542b5bb5e659412527a8b4aa3c7f8fc48884",
+        "size": 3259776
+      },
+      "api": 35,
+      "sourceFingerprint": "f727c396509f419d",
+      "nativeBridgeCheckLines": [
+        220,
+        285,
+        347,
+        349,
+        616,
+        629
+      ],
+      "checks": 203,
+      "images": [
+        {
+          "zip": "x86_64-35_r07.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35_r07.zip",
+          "zipSha1": "b06db9ec697e40e2acd301653ff76bb6b2abe1d8",
+          "label": "Android 15 (API 35) r07"
+        },
+        {
+          "zip": "x86_64-35_r08.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35_r08.zip",
+          "zipSha1": "e19acb15b1bec2a605bc9138d131f8bad6cdcdfb",
+          "label": "Android 15 (API 35) r08"
+        }
+      ],
+      "games": {}
+    },
+    {
+      "id": "ndk-api35-3f1d2639",
+      "libndk_translation": {
+        "md5": "3f1d26393b66b75a4317b8445654ce9c",
+        "sha256": "3356392ec6ef54d9a1d200d17d090b306b1e6cec2c8264883b705f2531ab278d",
+        "size": 3612176
+      },
+      "api": 35,
+      "sourceFingerprint": "09dd6503a135444a",
+      "nativeBridgeCheckLines": [
+        220,
+        285,
+        347,
+        349,
+        616,
+        629
+      ],
+      "checks": 203,
+      "images": [
+        {
+          "zip": "x86_64-35_r09.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35_r09.zip",
+          "zipSha1": "2f0054868e6aab3c098acd3decba17a82aed4176",
+          "label": "Android 15 (API 35) r09 (the current one in Google's index)"
+        },
+        {
+          "zip": "x86_64-35-ext14_r01.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35-ext14_r01.zip",
+          "zipSha1": "b9ef84a27cac20209aae77277ae34151a724d43f",
+          "label": "Android 15 ext14 (API 35) r01"
+        }
+      ],
+      "games": {
+        "loopsort": "crashes",
+        "pvz2": "works"
+      }
+    },
+    {
+      "id": "ndk-api35-fa529513",
+      "libndk_translation": {
+        "md5": "fa52951394226cbcc52e666f1d8c0d19",
+        "sha256": "504b0c8a763f450522f07a1c180116cd500bf46fe59c8785c18349399a264a5d",
+        "size": 3893208
+      },
+      "api": 35,
+      "sourceFingerprint": "d58622466977c6e4",
+      "nativeBridgeCheckLines": [
+        220,
+        285,
+        347,
+        349,
+        625,
+        638
+      ],
+      "checks": 208,
+      "images": [
+        {
+          "zip": "x86_64-35-ext15_r01.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35-ext15_r01.zip",
+          "zipSha1": "47bd387a6865762f7ae051365a70a3dc1eea2fdb",
+          "label": "Android 15 ext15 (API 35) r01"
+        }
+      ],
+      "games": {
+        "loopsort": "works",
+        "pvz2": "not tried"
+      }
+    },
+    {
+      "id": "ndk-api36-1f3d8b1c",
+      "libndk_translation": {
+        "md5": "1f3d8b1cb957dfe86753f7771c507561",
+        "sha256": "fbadc774c989534a567e6af8fd16d2c00727b1f1d9cc778bf538d6b59ed9776d",
+        "size": 5403704
+      },
+      "api": 36,
+      "sourceFingerprint": "68e331cf400ba28a",
+      "nativeBridgeCheckLines": [
+        220,
+        285,
+        347,
+        349,
+        624,
+        637
+      ],
+      "checks": 225,
+      "images": [
+        {
+          "zip": "x86_64-36_r07.zip",
+          "url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r07.zip",
+          "zipSha1": "16fa3c441d29fde6c9eea2f766eecf77032d68b4",
+          "label": "Android 16 (API 36) r07"
+        }
+      ],
+      "games": {}
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "redroid-ndk-translation",
+  "version": "0.1.0",
+  "description": "Which ndk_translation build to use in a redroid container, by hash, with the tools to extract it from the Android SDK images",
+  "license": "Apache-2.0",
+  "scripts": { "test": "node --test test/" }
+}
