@@ -20,7 +20,7 @@ and a self-built Android 15 image (AOSP `android-15.0.0_r36`) — see `catalog/b
 
 | app | `3f1d2639…` (r09 / ext14) | `fa529513…` (ext15) |
 |---|---|---|
-| **Loop Sort** (`com.Garawell.LoopSort`, arm64, Unity IL2CPP) | **crash**, deterministic: `SIGSEGV`/`SEGV_ACCERR` at `libndk_translation.so +0x2df110`, called from `libunity.so`, ~11 s after launch | **works** (past level 4) |
+| **Loop Sort** (`com.Garawell.LoopSort`, arm64, Unity IL2CPP) | **crash**, deterministic: `SIGSEGV`/`SEGV_ACCERR` at `libndk_translation.so +0x2df110`, called from `libunity.so`, ~11 s after launch | **works** (past level 4; also with the full set of 82 files taken straight from the ext15 image) |
 | **Plants vs Zombies 2** (`com.ea.game.pvz2_row`, arm64) | installs, runs, draws its screens | not tried |
 
 Things tried **without effect** on the Loop Sort crash with the r09 build: `ro.berberis.flags=accurate-sigsegv` (the SDK image's
