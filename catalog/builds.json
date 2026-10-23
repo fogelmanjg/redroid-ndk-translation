@@ -150,7 +150,7 @@
       ],
       "games": {
         "loopsort": "works (the full official ext15 set, 82 files, with the hardware encoder at 20 Mbps)",
-        "pvz2": "not tried"
+        "pvz2": "works (installs, boots, renders real UI, no translator crash -- blocked only by GApps not being installed in this test instance, same as any instance without it)"
       }
     },
     {
